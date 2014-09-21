@@ -1,0 +1,21 @@
+{
+  "name": "foram_node2",
+  "version": "0.0.0",
+  "authors": [
+    "mishra <tech@peoplevendor.com>"
+  ],
+  "description": "foram's node application for weather",
+  "main": "web.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies" : {
+      "angular": "latest",
+      "angular-route": "latest"
+  }
+}
