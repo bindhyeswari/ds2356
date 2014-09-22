@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/test');
 
 var User = mongoose.model('User', {
-    email: { type: String, required: true},
+    email: { type: String, required: true },
     password: { type: String, required: true }, // hash the password before storing using md5 or a better and more robust hashing system
     city: { type: String, required: true }
 });
