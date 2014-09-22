@@ -24,6 +24,8 @@ angular.module('myApp', ['ngRoute']).config(['$routeProvider', function ($routeP
             console.log('Posting data to screen ... ');
             console.log(data);
             $location.url('/weather/' + $scope.user.city);
+        }).error(function (data) {
+            alert(data);
         });
     };
 }).controller('WeatherController', function ($scope, $http, $routeParams) {
